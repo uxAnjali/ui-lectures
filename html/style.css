@@ -1,0 +1,34 @@
+.first {
+    font-size: 200px;
+    text-transform: uppercase;
+}
+
+.link-style{
+    color: black;
+    text-decoration: underline;
+/*    transition: font-size 0.5s ease-out;*/
+}
+
+.link-style:hover{
+    color: black;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+
+/*table css*/
+
+table {
+ width : 100%;
+background-color:#dddddd;
+border:2px black solid;
+}
+
+td {
+text-align : center;
+border:1px black solid;
+}
+
+.year-name{
+  background-color:yellowgreen;
+}
