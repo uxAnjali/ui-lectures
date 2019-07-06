@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.section-comm {
+    padding: 50px 10% 50px 10%;
+    min-height: 100vh;
+}
+
+#sect-1 {
+    background-color: yellow;
+}
+
+#sect-2 {
+    background-color: plum;
+}
+
+#sect-3 {
+    background-color: crimson;
+}
+
+#sect-4 {
+    background-color: coral;
+}
+
+#sect-5 {
+    background-color: skyblue;
+}
+
+/*table css*/
+
+table {
+    width: 100%;
+    background-color: #dddddd;
+    border: 2px black solid;
+}
+
+td {
+    text-align: center;
+    border: 1px black solid;
+}
+
+.year-name {
+    background-color: yellowgreen;
+}
+
+/*list css*/
+
+.one ul {
+    color: red;
+}
+
+.one ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    background: green;
+    margin: 10px 5px 12px 7px;
+    width: 100px;
+}
+
+ul li {}

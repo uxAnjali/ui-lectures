@@ -32,3 +32,20 @@ border:1px black solid;
 .year-name{
   background-color:yellowgreen;
 }
+
+
+/*list css*/
+
+.one ul{
+    color: red;
+}
+
+.one ul li{
+    list-style-type:none;
+    display: inline;
+    padding: 10px;
+    background: green;
+    margin: 10px 5px 12px 7px;
+    width:100px;
+}
+ul li{}
