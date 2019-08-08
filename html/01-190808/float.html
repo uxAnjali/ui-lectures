@@ -4,11 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Float</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .box {
+            width: 33.33%;
+            float: right;
+            padding: 15px;
+            box-sizing: border-box;
+            filter: grayscale(1);
+            transition: all 0.3s linear;
+        }
+
+        .box:hover {
+            transform: translateY(50px);
+            filter: grayscale(0);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+    </style>
 </head>
 
 <body>
 
-
+    <div class="box">
+        <img src="http://afelion.com/dist/img/home/wwd/1.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="http://afelion.com/dist/img/home/wwd/2.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="http://afelion.com/dist/img/home/wwd/3.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="http://afelion.com/dist/img/home/wwd/3.jpg" alt="">
+    </div>
 
 </body>
 
