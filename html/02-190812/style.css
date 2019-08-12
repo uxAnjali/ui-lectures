@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+
+}
+
+.bg_green {
+    background-color: green;
+    height: 100px;
+}
+
+.bg_red {
+    background-color: red;
+    height: 200px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+/*index page css*/
+#index_page .bg_red {
+    height: 100px;
+
+}
+
+#index_page .image_wrapper {
+    background-color: red;
+    padding: 15px;
+    display: table;
+
+}
+
+#index_page .image_wrapper .img_box {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+#index_page .image_wrapper .img_box .img-responsive {
+    filter: blur(0px);
+    transition: all 0.5s linear;
+}
+#index_page .image_wrapper .img_box .img-responsive:hover {
+    filter: blur(5px);
+}
+
+
+/*contact page css*/
+#contact_page .bg_green {
+    height: 200px;
+}
