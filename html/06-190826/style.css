@@ -27,6 +27,10 @@ body {
     padding: 10px 50px;
 /*    background-color: rgba(0, 0, 0, 0.51);*/
 }
+.img-responsive{
+    max-width: 100%;
+    display: block;
+}
 
 /*navbar css*/
 .navbar {
@@ -78,7 +82,7 @@ body {
     cursor: pointer;
 }
 
-.navbar .nav ul li a:hover {
+.navbar .nav ul li a:hover{
     color: #f44148;
 }
 
@@ -128,4 +132,44 @@ body {
 }
 .project-section  .section-title {
     color: cadetblue;
+}
+/*gallery section*/
+.gallery-section {}
+
+.gallery-section .section-content {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gallery-section .section-content .box33{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.gallery-section .section-content .box33 .box-inside {
+    position: relative;
+    /*height: 300px;*/
+    background-color: #fff;
+    
+}
+
+.gallery-section .section-content .box33 .box-inside .img-responsive:nth-child(1) {
+    filter: blur(3px);
+}
+
+.box-inside .abs-img{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition:all 0.5s linear; 
+}
+
+.gallery-section .section-content .box33 .box-inside:hover .abs-img{
+    width: 70%;
+    
 }
