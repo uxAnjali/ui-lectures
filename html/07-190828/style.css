@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+
+}
+
+.font-head {
+    font-family: Bauh;
+}
+
+@font-face {
+    font-family: Bauh;
+    src: url(fonts/BAUHS93.TTF);
+}
+
+@font-face {
+    font-family: ITCBLKAD;
+    src: url(fonts/ITCBLKAD.TTF);
+}
+
+.font-text {
+    font-family: ITCBLKAD;
+}
